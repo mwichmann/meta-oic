@@ -1,6 +1,6 @@
 meta-oic
 ========
-This layer contains recipes for the IoTivity Project (v1.3.1)
+This layer contains recipes for the IoTivity Project (v2.0.0)
 , sample applications and related components for any Yocto target.
 
 Contents
@@ -141,7 +141,8 @@ IoTivity service headers are placed in /usr/include/iotivity/service.
 IoTivity resource and service applications are placed in
 /opt/iotivity/examples.
 
-IoTivity tests are placed in /opt/iotivity/tests.
+IoTivity extra files (tools, examples, tests...) are placed in 
+/usr/lib*/iotivity/.
 
 Building IoTivity applications for a Yocto target
 =================================================
